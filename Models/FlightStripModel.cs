@@ -232,7 +232,7 @@ namespace vatSys_INTAS_Client.Models
         {
             StripType = StripType.ARRIVAL;
             Active = false;
-            Callsign = "QF551";
+            Callsign = "QFA551";
             Gate = "D12";
             Origin = "YMML";
             Destination = "YPPH";

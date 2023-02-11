@@ -21,24 +21,25 @@
         </Grid.RowDefinitions>
         <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black"/>
         <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="1"/>
-        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="2"/>
-        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Margin="0,54,0,0" Grid.Row="1"/>
-        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Row="3" Margin="0,314,0,0"/>
-        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Row="3" Margin="0,204,0,0" Grid.Column="1"/>
-        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="2" Grid.Row="3" Margin="0,410,0,0"/>
-        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="2" Grid.Row="3"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,64,0,0" TextWrapping="Wrap" Text="PLANNED " VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" TextChanged="TextBox_TextChanged" Grid.Row="1"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" TextWrapping="Wrap" Text="PLANNED (PDC)" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,324,0,0" TextWrapping="Wrap" Text="WAITING READBACK" VerticalAlignment="Top" Width="138" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Row="2"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" TextWrapping="Wrap" Text="CLEARED&#xA;" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="11,214,0,0" TextWrapping="Wrap" Text="PUSHBACK" VerticalAlignment="Top" Width="71" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="1" Grid.Row="2" TextChanged="TextBox_TextChanged_1"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="5,10,0,0" TextWrapping="Wrap" Text="TAXI" VerticalAlignment="Top" Width="38" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="2" TextChanged="TextBox_TextChanged_1"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="5,10,0,0" TextWrapping="Wrap" Text="READY" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="2" TextChanged="TextBox_TextChanged_1" Grid.Row="2"/>
-        <Border BorderBrush="White" Grid.Row="2" Margin="0,10,634,-104" Grid.Column="1" Background="Black" BorderThickness="0,0,2.5,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="2" Margin="0,3,0,0" Grid.Row="1"/>
+        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Row="2" Margin="0,20,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Row="1" Margin="0,3,0,0" Grid.Column="1"/>
+        <Rectangle HorizontalAlignment="Left" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="1" Grid.Row="2" Margin="635,223,0,0" Grid.ColumnSpan="2"/>
+        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="1" Grid.Row="2" Margin="0,223,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" TextWrapping="Wrap" Text="PLANNED" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,30,0,0" TextWrapping="Wrap" Text="CLEARED" VerticalAlignment="Top" Width="138" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Row="2"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" TextWrapping="Wrap" Text="PUSHBACK&#xA;" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="5,13,0,0" TextWrapping="Wrap" Text="ARRIVALS" VerticalAlignment="Top" Width="73" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="2" TextChanged="TextBox_TextChanged_1" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,233,0,0" TextWrapping="Wrap" Text="READY" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="1" TextChanged="TextBox_TextChanged_1" Grid.Row="2"/>
         <Border BorderBrush="White" Margin="0,0,634,306" Background="Black" BorderThickness="0,0,2.5,0" Grid.RowSpan="3" Grid.Column="1"/>
-        <Border BorderBrush="White" Grid.Row="2" Margin="634,10,0,-104" Grid.Column="1" Background="Black" BorderThickness="0,0,2.5,0"/>
         <Border BorderBrush="White" Margin="634,0,0,306" Background="Black" BorderThickness="0,0,2.5,0" Grid.RowSpan="3" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,420,0,0" TextWrapping="Wrap" Text="AIRBORNE" VerticalAlignment="Top" Width="77" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="2" TextChanged="TextBox_TextChanged_1" Grid.Row="2"/>
-        <Controls:FlightStripControl HorizontalAlignment="Center" VerticalAlignment="Top" Width="640" Margin="0,91,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="5,233,0,0" TextWrapping="Wrap" Text="AIRBORNE" VerticalAlignment="Top" Width="77" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="2" TextChanged="TextBox_TextChanged_1" Grid.Row="2"/>
+        <Controls:FlightStripControl HorizontalAlignment="Center" VerticalAlignment="Top" Width="640" Margin="0,42,0,0" DataContext = "{Binding}" Grid.Column="2"/>
+        <Controls:FlightStripControl HorizontalAlignment="Center" VerticalAlignment="Top" Width="640" Margin="0,121,0,0" DataContext = "{Binding}" Grid.Column="2"/>
+        <Rectangle HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="640" Fill="Black" Grid.Column="2" Margin="0,1,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="11,13,0,0" TextWrapping="Wrap" Text="TAXI&#xA;" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="1" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" TextWrapping="Wrap" Text="RWY" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="2" TextChanged="TextBox_TextChanged_1"/>
+        <Border BorderBrush="White" Grid.Row="2" Margin="0,10,634,-104" Grid.Column="1" Background="Black" BorderThickness="0,0,2.5,0"/>
+        <Border BorderBrush="White" Grid.Row="2" Margin="634,10,0,-104" Grid.Column="1" Background="Black" BorderThickness="0,0,2.5,0"/>
     </Grid>
 </Window>

@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using vatSys_INTAS_Client.Models;
+using vatSys_INTAS_Client.Controls;
 
 namespace vatSys_INTAS_Client
 {
@@ -23,6 +25,7 @@ namespace vatSys_INTAS_Client
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new DesignTimeStripModel();
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -31,6 +34,11 @@ namespace vatSys_INTAS_Client
         }
 
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
         {
 
         }
