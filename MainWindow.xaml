@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vatSys_INTAS_Client"
-        xmlns:Controls="clr-namespace:vatSys_INTAS_Client.Controls" x:Class="vatSys_INTAS_Client.MainWindow"
+        xmlns:Controls="clr-namespace:vatSys_INTAS_Client.Controls" xmlns:Components="clr-namespace:vatSys_INTAS_Client.Components" x:Class="vatSys_INTAS_Client.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920" WindowStartupLocation="CenterOwner" WindowState="Maximized" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Gray">
     <Grid ScrollViewer.VerticalScrollBarVisibility="Auto" Width="1920" HorizontalAlignment="Left" ScrollViewer.CanContentScroll="True">
@@ -41,5 +41,12 @@
         <TextBox HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" TextWrapping="Wrap" Text="RWY" VerticalAlignment="Top" Width="120" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Grid.Column="2" TextChanged="TextBox_TextChanged_1"/>
         <Border BorderBrush="White" Grid.Row="2" Margin="0,10,634,-104" Grid.Column="1" Background="Black" BorderThickness="0,0,2.5,0"/>
         <Border BorderBrush="White" Grid.Row="2" Margin="634,10,0,-104" Grid.Column="1" Background="Black" BorderThickness="0,0,2.5,0"/>
+        <Components:StripHolder x:Name="PlannedHolder" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Width="640" Height="380" Grid.RowSpan="3"/>
+        <Components:StripHolder HorizontalAlignment="Center" Margin="0,60,0,-104" Grid.Row="2" Width="640"/>
+        <Components:StripHolder Grid.Column="1" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="624" Height="163" Grid.RowSpan="2"/>
+        <Components:StripHolder Grid.Column="1" HorizontalAlignment="Left" Margin="10,43,0,337" Grid.Row="1" Grid.RowSpan="2" Width="624"/>
+        <Components:StripHolder Grid.Column="2" HorizontalAlignment="Center" Margin="0,43,0,337" Grid.Row="1" Grid.RowSpan="2" Width="640"/>
+        <Components:StripHolder Grid.Column="2" HorizontalAlignment="Center" Margin="0,263,0,-104" Grid.Row="2" Width="640"/>
+        <Components:StripHolder HorizontalAlignment="Center" Margin="0,263,0,-104" Grid.Row="2" Width="628" Grid.Column="1"/>
     </Grid>
 </Window>

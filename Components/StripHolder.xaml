@@ -1,0 +1,15 @@
+﻿<UserControl x:Name="Root" x:Class="vatSys_INTAS_Client.Components.StripHolder"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:vatSys_INTAS_Client.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" 
+             d:DesignWidth="400">
+    <Grid Background="Gray">
+        <ScrollViewer Height="900" VerticalAlignment="Bottom">
+            <StackPanel x:Name="StackPanel" VerticalAlignment="Bottom"/>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
